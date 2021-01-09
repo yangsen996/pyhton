@@ -1,0 +1,29 @@
+[
+  {
+    "desc" : "登录成功",
+    "username" : "13800000000",
+    "password" : "123456",
+    "verify_code" : "8888",
+    "status_code" : 200,
+    "status" : 1,
+    "msg" : "登陆成功"
+  },
+  {
+    "desc" : "账号不存在",
+    "username": "1380000011",
+    "password": "123456",
+    "verify_code": "8888",
+    "status_code" : 200,
+    "status" : -1,
+    "msg" : "账号不存在"
+  },
+  {
+    "desc" : "密码错误",
+    "username": "13800000000",
+    "password": "error",
+    "verify_code": "8888",
+    "status_code" : 200,
+    "status" : -2,
+    "msg" : "密码错误"
+  }
+]
